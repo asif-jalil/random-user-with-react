@@ -1,0 +1,98 @@
+.card {
+  position: relative;
+  margin: 10px 0 20px 0;
+  background-color: rgba(214, 224, 226, 0.2);
+  border-top-width: 0;
+  border-bottom-width: 2px;
+  border-radius: 3px;
+  box-shadow: none;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  width: 270px;
+  overflow: hidden;
+  text-align: center;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.card .cardheader {
+  background: linear-gradient(45deg, rgb(26, 46, 228), rgb(223, 20, 241));
+  background-size: cover;
+  height: 135px;
+}
+
+.card .avatar {
+  position: relative;
+  top: -50px;
+  margin-bottom: -50px;
+}
+
+.card .avatar img {
+  width: 100px;
+  height: 100px;
+  max-width: 100px;
+  max-height: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 5px solid rgba(255, 255, 255, 0.5);
+}
+
+.card .info {
+  padding: 4px 8px 10px;
+}
+
+.card .info .title {
+  color: #0056b3;
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 1;
+  font-weight: 400;
+}
+
+.card .info .desc {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 20px;
+  color: #737373;
+  text-overflow: ellipsis;
+}
+
+.card .footer {
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card .footer p {
+  width: 45%;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.card .footer .divider {
+  padding: 10px 0;
+  border-right: 1px solid rgba(0, 0, 0, 0.325);
+}
+
+.card .footer p span {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.btn-full {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: linear-gradient(45deg, rgb(26, 46, 228), rgb(223, 20, 241));
+
+  /* background: black; */
+  color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}

@@ -1,0 +1,31 @@
+.friends {
+  /* text-align: center; */
+  padding: 10px 20px;
+  position: fixed;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+.friends .header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.friends .header h2 {
+  font-size: 30px;
+  color: rgb(223, 20, 241);
+  margin-bottom: 10px;
+}
+
+.friends .header h5 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.friends .header p {
+  font-size: 15px;
+}
+
+.friend-list {
+  overflow-y: auto;
+}
